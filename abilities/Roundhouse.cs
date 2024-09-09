@@ -53,8 +53,7 @@ public class Roundhouse : AbilitySO
 
 	public override void StartAction(GridPosition _position)
 	{
-		Console.WriteLine(1);
-		StartAction(_position);
+		base.StartAction(_position);
 		user.InstantFacePosition(_position);
 		PlayUseSound();
 		TriggerAnimation();
