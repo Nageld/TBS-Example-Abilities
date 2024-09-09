@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard21</TargetFramework>
     <Description>Adds some example custom abilities</Description>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <RestoreAdditionalProjectSources>
